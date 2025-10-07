@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "cba06774ea459b78",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c439d0d3ba00559",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7faa376fd4555df1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-10-07-I&M BANK  2025 CTF-Incident Responce Writeup.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-10-07-I&M BANK  2025 CTF-Incident Responce Writeup"
+            }
+          },
+          {
+            "id": "94992fad27748306",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fa45d5f1167cf9ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e1df08102b54138",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7593757df7253cc5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f12234ed21974af4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "585165ec8357b485",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a2f246b208d4f32c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef72aa0802a99993",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e63edfa161ee7d1a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2025-10-07-I&M BANK  2025 CTF-Incident Responce Writeup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025-10-07-I&M BANK  2025 CTF-Incident Responce Writeup"
+            }
+          },
+          {
+            "id": "67632f140f1fb238",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2025-10-07-I&M BANK  2025 CTF-Incidence Responce Writeup.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-10-07-I&M BANK  2025 CTF-Incidence Responce Writeup"
+            }
+          },
+          {
+            "id": "73dbb5ba0192ad6c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7f16a2a6573f71b7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2025-10-07-I&M BANK  2025 CTF-Incidence Responce Writeup.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-10-07-I&M BANK  2025 CTF-Incidence Responce Writeup"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "7faa376fd4555df1",
+  "lastOpenFiles": [
+    "().md",
+    "2025-10-07-I&M BANK  2025 CTF-Incident Responce Writeup.md",
+    "Untitled",
+    "Untitled 1"
+  ]
+}
