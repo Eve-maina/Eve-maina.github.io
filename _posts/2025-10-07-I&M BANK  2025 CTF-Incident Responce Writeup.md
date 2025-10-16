@@ -1,17 +1,20 @@
 ---
-title: "I&M BANK 2025 CTF - Incident Response Write Up"
+title: I&M BANK 2025 CTF - Incident Response Write Up
 date: 2025-10-07
-categories: [CTF, Incident Response]
-tags: [wireshark, incident response, packet analysis, threat hunting]
+categories:
+  - CTF
+  - Incident Response
+tags:
+  - wireshark
+  - incident response
+  - packet analysis
+  - threat hunting
 ---
-
-
-
 
 ## Compromised server-1
 ![Compromised server-1](/assets/img/IM/Compromised_Server/img_1.png)
 
-We were given this <a href="/assets/img/IM/Compromised_Server/CaptureTraffic.pcap" download>pcap file </a> to analyze.  
+We were given this <a href="/assets/img/IM/Compromised_Server/CaptureTraffic.pcap" download>pcap file </a>analyze.  
 
 Given such a challenge, the first thing I did was to identify the attacker's IP address. This helps in getting a better understanding of the traffic flow. To achieve this, I used wireshark - a packet analysis tool. 
 After opening the pcap file on wireshark, Under Statistics >Conversations> IPv4 , I sorted the packets in descending order to get the conversation with the highest amount of traffic flow.
@@ -39,5 +42,55 @@ To identify the exploit used by the attacker, I extracted the service name and e
 Mapping the captured build (`TeamCity 2023.11.3`) to public advisories revealed **CVE-2024-27198** — a critical (CVSS 9.8) authentication bypass in TeamCity’s web UI resulting from an alternative-path handling bug (CWE-288).
 ![Compromised server-1](/assets/img/IM/Compromised_Server/img_6.png)
 
-We found the first flag: `CVE-2024-27198` 
+I found the first flag: `CVE-2024-27198` 
+
+## Compromised server - 2
+
+![Compromised server-1](/assets/img/IM/Compromised_Server/img_7.png)
+
+For the next phase, I enumerated accounts created by the attacker by filtering for suspicious POST requests in the packet capture. Using Wireshark I isolated registration-related POSTs, reconstructed each HTTP stream, and identified the earliest account creation request — this revealed the first user created by the attacker.
+
+![Compromised server-1](/assets/img/IM/Compromised_Server/img_8.png)
+The attacker created a user by the name "ahup1rui" with a password of "pXgdGJacOZ"
+![Compromised server-1](/assets/img/IM/Compromised_Server/img_9.png)
+
+I now needed to find the endpoint that the attacker used to upload the web shell. Still on the post requests, I spotted the endpoint.
+![Compromised server-1](/assets/img/IM/Compromised_Server/img_10.png)
+
+I got the second flag `pluginUpload.html` 
+
+## Compromised server - 3
+
+#### The attacker uploaded a web shell using the newly created user.What is the full URL of the uploaded web shell?
+
+For this, I followed the network stream of the previous question.I came across this file 5z6p8kCA.zip which contained the 5z6p8kCA.jar file as shown below.
+
+![Compromised server-1](/assets/img/IM/Compromised_Server/img_11.png)
+
+To obtain the full URL, I located the packet containing the uploaded file and examined its corresponding HTTP metadata.
+I used the filter _http.request.uri contains "5z6p8kCA.jsp"_
+![Compromised server-1](/assets/img/IM/Compromised_Server/img_12.png)
+
+I got the flag  `http://18.159.50.167:8111/plugins/5z6p8KCA/5z6p8KCA.jsp` 
+
+## Compromised server - 4
+#### The attacker created another user named 41m67llo and uploaded another web shell. What is the name of the ZIP file that was uploaded?
+
+Since I are already had the username, I  filtered for POST requests related to the plugin uploads.
+
+![Compromised server-1](/assets/img/IM/Compromised_Server/img_13.png)
+
+![Compromised server-1](/assets/img/IM/Compromised_Server/img_14.png)
+
+
+I got the flag `V5HwJgS3.zip`
+
+## Compromised server-5  
+#### The attacker created a file on the system containing some text.What is the text inside that file?
+
+On the same packet from the previous question, I viewed  the HTML form URL Encoded section.
+
+![Compromised server-1](/assets/img/IM/Compromised_Server/img_15.png)
+
+I got the flag `YOU ARE HACKED BUDD!`
 

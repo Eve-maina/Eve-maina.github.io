@@ -1,0 +1,16 @@
+05-aDBkfQ.exfil.badactor.com
+cdn.example.org
+news.cnn.com
+01-X3R1bk4zbDE.exfil.badactor.com
+www.google.com
+www.google.com
+02-bmdfMXNfYV8.exfil.badactor.com
+cdn.example.org
+00-ZmxhZ3tkTnM.exfil.badactor.com
+cdn.example.org
+update.windows.com
+03-YzBtbTBuX2U.exfil.badactor.com
+cdn.example.org
+www.microsoft.com
+04-eGYxbF9tM3Q.exfil.badactor.com
+www.microsoft.com
