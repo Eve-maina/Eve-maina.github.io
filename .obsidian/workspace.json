@@ -11,10 +11,14 @@
             "id": "9e05344af63e6cc3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_tabs/about.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "about"
             }
           }
         ]
@@ -163,5 +167,9 @@
     }
   },
   "active": "9e05344af63e6cc3",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "_config.yml",
+    "WHOLE/_config.yml",
+    "WHOLE"
+  ]
 }

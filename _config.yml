@@ -38,7 +38,8 @@ social:
   email: cyberb4ddie@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://x.com/CyberB4ddi3 # change to your Twitter homepage
+    
+    - https://www.linkedin.com/in/eve-maina/ # change to your Twitter homepage
     - https://github.com/Eve-maina # change to your GitHub homepage 
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -98,11 +99,11 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/lib/kali.icon.webp 
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: /assets/lib/kali.icon.webp
+social_preview_image: 
 
 # boolean type, the global switch for TOC in posts.
 toc: true
