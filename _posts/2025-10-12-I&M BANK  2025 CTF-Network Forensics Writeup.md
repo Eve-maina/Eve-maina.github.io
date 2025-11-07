@@ -5,8 +5,8 @@ categories:
   - CTF
   - Network Forensics 
 tags:
-  - Wireshark
-  - Packet Analysis
+  - wireshark
+  - packet_analysis
 ---
 ## Catch if you can  
 

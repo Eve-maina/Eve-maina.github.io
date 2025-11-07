@@ -6,9 +6,9 @@ categories:
   - Incident Response
 tags:
   - wireshark
-  - incident response
-  - packet analysis
-  - threat hunting
+  - incident_response
+  - packet_analysis
+  - threat_hunting
 ---
 
 ## Compromised server-1
@@ -93,4 +93,5 @@ On the same packet from the previous question, I viewed  the HTML form URL Encod
 ![Compromised server-1](/assets/img/IM/Compromised_Server/img_15.png)
 
 I got the flag `YOU ARE HACKED BUDD!`
+
 
