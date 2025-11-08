@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Untitled/2025-10-07-DEPLOYING A WEB SERVER IN AN EC2 INSTANCE.md",
+                "file": "_posts/2025-11-07-AUTO SCALING IN AWS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-10-07-DEPLOYING A WEB SERVER IN AN EC2 INSTANCE"
+              "title": "2025-11-07-AUTO SCALING IN AWS"
             }
           }
         ],
@@ -103,8 +103,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,12 +197,15 @@
   },
   "active": "ecc2257131b137cb",
   "lastOpenFiles": [
+    "_site/Pasted image 20251108031431.png",
+    "Pasted image 20251108031431.png",
+    "_posts/Untitled/2025-10-07-DEPLOYING A WEB SERVER IN AN EC2 INSTANCE.md",
+    "_posts/2025-10-12-I&M BANK  2025 CTF-Network Forensics Writeup.md",
+    "_posts/2025-10-07-I&M BANK  2025 CTF-Incident Responce Writeup.md",
     "_site/posts/DEPLOYING-A-WEB-SERVER-IN-AN-EC2-INSTANCE/index.html",
     "_site/posts/DEPLOYING-A-WEB-SERVER-IN-AN-EC2-INSTANCE",
     "_site/tags/ec-2/index.html",
     "_site/tags/ec-2",
-    "_posts/2025-10-07-I&M BANK  2025 CTF-Incident Responce Writeup.md",
-    "_posts/Untitled/2025-10-07-DEPLOYING A WEB SERVER IN AN EC2 INSTANCE.md",
     "_posts/2025-11-07-AUTO SCALING IN AWS.md",
     "Pasted image 20251108014629.png",
     "Pasted image 20251108014506.png",
@@ -217,12 +219,9 @@
     "_site/assets/img/SCALING/img10.png",
     "assets/img/SCALING/img10.png",
     "assets/img/SCALING/img10.png.crdownload",
-    "_site/assets/img/SCALING/img9.png",
     "assets/img/SCALING/img9.png.crdownload",
     "assets/img/SCALING/img8.png.crdownload",
     "assets/img/SCALING/img7.png.crdownload",
-    "assets/img/SCALING/FinalArchitecture.png.crdownload",
-    "_posts/2025-10-12-I&M BANK  2025 CTF-Network Forensics Writeup.md",
     "_site/Untitled.md",
     "_tabs/about.md",
     "_posts/2025-11-01-247 CTF-ICMP Tunneling.md",

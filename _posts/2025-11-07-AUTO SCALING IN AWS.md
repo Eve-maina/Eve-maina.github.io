@@ -28,7 +28,8 @@ This is our starting architecture:
 
 
 Final architecture:
-![](/assets/img/SCALING/finalArchitecture.png)
+![](/assets/img/SCALING/FinalArchitecture.png)
+
 
 ## Step 1: Creating a new AMI for Amazon EC2 Auto Scaling
 #### Step 1.1: Connecting to the Command Host Instance
