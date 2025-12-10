@@ -72,12 +72,10 @@ Which meant all I needed was a different “spelling” of localhost.
 The alternative: convert `127.0.0.1` into its 32-bit decimal representation, a completely different-looking number that still resolves back to localhost when used in a URL.
 
 **Decimal Conversion:**
+
 IPv4 addresses have four parts (A.B.C.D), each ranging from 0 to 255. To convert an IP to a single decimal number, each part is treated as a byte and multiplied by a power of 256 based on its position: the first part by 256³, the second by 256², the third by 256¹, and the last by 256⁰. This effectively “packs” all four bytes into one number.
 
-
-$$
-(127 \times 256^3) + (0 \times 256^2) + (0 \times 256^1) + (1 \times 256^0)
-$$
+![SSRF](/assets/img/PerfectrootCTF/img00.png)
 
 To the server’s weak filter, this looked harmless. To the Python requests library, it was just “127.0.0.1” wearing a fake mustache.
 
