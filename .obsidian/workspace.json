@@ -13,20 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-10-12-I&M BANK  2025 CTF-Network Forensics Writeup.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-10-12-I&M BANK  2025 CTF-Network Forensics Writeup"
-            }
-          },
-          {
-            "id": "994375bb9e249d67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "_posts/2025-10-07-I&M BANK  2025 CTF-Incident Responce Writeup.md",
                 "mode": "source",
                 "source": false
@@ -36,21 +22,21 @@
             }
           },
           {
-            "id": "ecc2257131b137cb",
+            "id": "6832ba08103ff0bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-11-07-AUTO SCALING IN AWS.md",
+                "file": "_posts/2025-10-07-P3RF3CTR00TCTF 2025-Web Writeup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-07-AUTO SCALING IN AWS"
+              "title": "2025-10-07-P3RF3CTR00TCTF 2025-Web Writeup"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:ec",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,39 +181,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "ecc2257131b137cb",
+  "active": "6832ba08103ff0bf",
   "lastOpenFiles": [
-    "_site/Pasted image 20251108031431.png",
-    "Pasted image 20251108031431.png",
-    "_posts/Untitled/2025-10-07-DEPLOYING A WEB SERVER IN AN EC2 INSTANCE.md",
-    "_posts/2025-10-12-I&M BANK  2025 CTF-Network Forensics Writeup.md",
+    "_site/assets/img/PerfectrootCTF/img05.png",
+    "assets/img/PerfectrootCTF/img05.png",
+    "_site/assets/img/PerfectrootCTF/img04.png",
+    "assets/img/PerfectrootCTF/img04.png",
+    "_site/assets/img/PerfectrootCTF/img03.png",
+    "assets/img/PerfectrootCTF/img03.png",
+    "_site/assets/img/PerfectrootCTF/img02.png",
+    "assets/img/PerfectrootCTF/img02.png",
     "_posts/2025-10-07-I&M BANK  2025 CTF-Incident Responce Writeup.md",
-    "_site/posts/DEPLOYING-A-WEB-SERVER-IN-AN-EC2-INSTANCE/index.html",
-    "_site/posts/DEPLOYING-A-WEB-SERVER-IN-AN-EC2-INSTANCE",
-    "_site/tags/ec-2/index.html",
-    "_site/tags/ec-2",
+    "_site/assets/img/PerfectrootCTF/public.zip",
+    "assets/img/PerfectrootCTF/public.zip",
+    "_site/assets/img/PerfectrootCTF/public/users.db",
+    "_site/assets/img/PerfectrootCTF/public/templates/index.html",
+    "_site/assets/img/PerfectrootCTF/public/templates",
+    "_site/assets/img/PerfectrootCTF/public/requirements.txt",
+    "_site/assets/img/PerfectrootCTF/public/build_docker.sh",
+    "_site/assets/img/PerfectrootCTF/public/app.py",
+    "_site/assets/img/PerfectrootCTF/public/Dockerfile",
+    "_site/assets/img/PerfectrootCTF/public",
+    "_posts/2025-10-07-P3RF3CTR00TCTF 2025-Web Writeup.md",
+    "_site/assets/img/PerfectrootCTF/img01.png",
+    "assets/img/PerfectrootCTF/img01.png",
+    "_site/assets/img/PerfectrootCTF/Pasted image 20251210215135.png",
+    "Untitled 1.md",
+    "_site/Untitled 1.md",
+    "_posts/2025-10-12-I&M BANK  2025 CTF-Network Forensics Writeup.md",
+    "_posts/--.md",
     "_posts/2025-11-07-AUTO SCALING IN AWS.md",
-    "Pasted image 20251108014629.png",
-    "Pasted image 20251108014506.png",
-    "Pasted image 20251108014028.png",
-    "_site/assets/img/SCALING/img12.png",
-    "assets/img/SCALING/img12.png",
-    "assets/img/SCALING/img12.png.crdownload",
-    "_site/assets/img/SCALING/img11.png",
-    "assets/img/SCALING/img11.png",
-    "assets/img/SCALING/img11.png.crdownload",
-    "_site/assets/img/SCALING/img10.png",
-    "assets/img/SCALING/img10.png",
-    "assets/img/SCALING/img10.png.crdownload",
-    "assets/img/SCALING/img9.png.crdownload",
-    "assets/img/SCALING/img8.png.crdownload",
-    "assets/img/SCALING/img7.png.crdownload",
+    "Untitled.md",
     "_site/Untitled.md",
+    "_posts/2025-11-07-USING AWS SYSTEMS MANAGER.md",
+    "_posts/Untitled/2025-10-07-DEPLOYING A WEB SERVER IN AN EC2 INSTANCE.md",
     "_tabs/about.md",
     "_posts/2025-11-01-247 CTF-ICMP Tunneling.md",
     "_posts/247 CTF-ICMP Tunneling.md",
-    "_posts/kdlajd.md",
-    "_posts/Untitled.md",
-    "_posts/--.md"
+    "_posts/kdlajd.md"
   ]
 }
