@@ -1,5 +1,5 @@
 ---
-title: SERVER-SIDE REQUEST FORGERY (SSRF)
+title: P3RF3CTR00TCTF 2025-Web Writeup
 tags:
   - web
   - ssrf
@@ -58,7 +58,7 @@ I realized that if I could write "127.0.0.1" in a way that _didn't_ look like "1
 The game was on!
 
 ## Step 2: Exploitation: Turning the  Weakness into a Weapon
-#### Step 2.1:  Creating a normal user
+#### Step 2.1:  Creating a normal user.
 Before attempting privilege escalation, the application needed a session tied to a legitimate user. Since the `/addAdmin` endpoint promotes an _existing_ username, I started by creating one.
 **Action:** Registered and logged in as the user **hacker**.
 This ensured that once I tricked the server into calling the internal admin endpoint, it would know exactly whom to promote.
