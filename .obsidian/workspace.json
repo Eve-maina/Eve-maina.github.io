@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_tabs/about.md",
+                "file": "_posts/2025-10-07-P3RF3CTR00TCTF 2025-Web Writeup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "2025-10-07-P3RF3CTR00TCTF 2025-Web Writeup"
             }
           }
         ],
@@ -183,6 +183,7 @@
   },
   "active": "6832ba08103ff0bf",
   "lastOpenFiles": [
+    "_tabs/about.md",
     "_posts/2025-10-07-P3RF3CTR00TCTF 2025-Web Writeup.md",
     "_posts/2025-10-07-I&M BANK  2025 CTF-Incident Responce Writeup.md",
     "_site/assets/img/PerfectrootCTF/img05.png",
@@ -214,7 +215,6 @@
     "_site/Untitled.md",
     "_posts/2025-11-07-USING AWS SYSTEMS MANAGER.md",
     "_posts/Untitled/2025-10-07-DEPLOYING A WEB SERVER IN AN EC2 INSTANCE.md",
-    "_tabs/about.md",
     "_posts/2025-11-01-247 CTF-ICMP Tunneling.md",
     "_posts/247 CTF-ICMP Tunneling.md",
     "_posts/kdlajd.md"
